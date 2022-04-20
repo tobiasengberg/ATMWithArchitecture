@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{0FB3714A-5758-4C56-8071-69993EF981D4}|Default">
+  <MonoDevelop.Ide.ItemProperties.Application FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UserInterface/Transaction.cs">
+    <Files>
+      <File FileName="UserInterface/Program.cs" Line="1" Column="1" />
+      <File FileName="CoreRules/Account.cs" Line="14" Column="1" />
+      <File FileName="CoreRules/CashEvent.cs" Line="16" Column="31" />
+      <File FileName="Application/AllAccounts.cs" Line="14" Column="37" />
+      <File FileName="Application/AllCashEvents.cs" Line="15" Column="33" />
+      <File FileName="UserInterface/Transaction.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ATMWithArchitecture" expanded="True">
+            <Node name="Application" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="CoreRules" expanded="True" />
+            <Node name="UserInterface" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Transaction.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CoreRules FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UserInterface FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
