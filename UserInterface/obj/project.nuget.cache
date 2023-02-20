@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bi75WAcjC5EWThIfHvZgnzHz8+b45v/vMtwzAIzcqkENFxJmRBYgZcaZrbvk61mxVCKKngiRlGeVcvKhbiNTRg==",
+  "dgSpecHash": "jhJ5ytpMxas+xazyHR5AUhTapVFkCqzkKDkC3UQoRhZSDF+VrUAHZyu0VN7DsUejbPljcTsUPH6ihbs6lPKQkQ==",
   "success": true,
-  "projectFilePath": "/Users/tobiasengberg/Projects/ATMWithArchitecture/UserInterface/UserInterface.csproj",
+  "projectFilePath": "/Users/tobiasengberg/RiderProjects/ATMWithArchitecture/UserInterface/UserInterface.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

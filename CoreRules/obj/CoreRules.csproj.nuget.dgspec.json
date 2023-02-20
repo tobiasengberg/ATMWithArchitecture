@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tobiasengberg/Projects/ATMWithArchitecture/CoreRules/CoreRules.csproj": {}
+    "/Users/tobiasengberg/RiderProjects/ATMWithArchitecture/CoreRules/CoreRules.csproj": {}
   },
   "projects": {
-    "/Users/tobiasengberg/Projects/ATMWithArchitecture/CoreRules/CoreRules.csproj": {
+    "/Users/tobiasengberg/RiderProjects/ATMWithArchitecture/CoreRules/CoreRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tobiasengberg/Projects/ATMWithArchitecture/CoreRules/CoreRules.csproj",
+        "projectUniqueName": "/Users/tobiasengberg/RiderProjects/ATMWithArchitecture/CoreRules/CoreRules.csproj",
         "projectName": "CoreRules",
-        "projectPath": "/Users/tobiasengberg/Projects/ATMWithArchitecture/CoreRules/CoreRules.csproj",
+        "projectPath": "/Users/tobiasengberg/RiderProjects/ATMWithArchitecture/CoreRules/CoreRules.csproj",
         "packagesPath": "/Users/tobiasengberg/.nuget/packages/",
-        "outputPath": "/Users/tobiasengberg/Projects/ATMWithArchitecture/CoreRules/obj/",
+        "outputPath": "/Users/tobiasengberg/RiderProjects/ATMWithArchitecture/CoreRules/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tobiasengberg/.config/NuGet/NuGet.Config"
+          "/Users/tobiasengberg/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -43,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -52,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

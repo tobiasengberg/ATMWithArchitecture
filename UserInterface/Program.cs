@@ -45,7 +45,7 @@ namespace UserInterface
                 List<CashEvent> accountHistory = AllCashEvents.GetAccountHistory(account);
                 if(CashEvent.AmountNecessary(accountHistory, amount))
                 {
-                    Console.WriteLine("Take care of the money returned");
+                    Console.WriteLine($"Take care of the {- amount} kr returned");
                 }
                 else
                 {

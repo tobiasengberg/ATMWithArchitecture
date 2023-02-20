@@ -13,10 +13,23 @@ namespace CoreRules
         public bool Accepted { get; set; }
 
 
-        public CashEvent(decimal amount, Account account)
+        public CashEvent(decimal amount, Account account, List<CashEvent> accountHistory)
         {
+            EventDate = DateTime.Now;
             CashAction = amount;
             Account = account;
+            if (amount >= 0)
+            {
+                Accepted = true;
+            }
+            else if (amount < 0 && AmountNecessary(accountHistory, Convert.ToInt32(amount)))
+            {
+                Accepted = true;
+            }
+            else
+            {
+                Accepted = false;
+            }
         }
 
         public static bool AmountNecessary(List<CashEvent> accountHistory, int amount)

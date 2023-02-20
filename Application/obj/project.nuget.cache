@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XLywmQCpqCzOhnO+RWSjTGFHlSScOj9Gh9stgC/qnWucn3sGdl2XUwu8iLEaTyQjbUIbmM9AS4a+pF9P7AtyfQ==",
+  "dgSpecHash": "DpfqX4ARI2Jfmxo26e6rFPECs0PRtTRjzScV4JcPnKJOnuKrMvxTEu7MPivZvTczyOWNDR+GS5s0wGAVSjiOoA==",
   "success": true,
-  "projectFilePath": "/Users/tobiasengberg/Projects/ATMWithArchitecture/Application/Application.csproj",
+  "projectFilePath": "/Users/tobiasengberg/RiderProjects/ATMWithArchitecture/Application/Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

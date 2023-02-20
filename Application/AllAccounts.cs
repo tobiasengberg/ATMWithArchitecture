@@ -6,7 +6,11 @@ namespace Application
 {
     public static class AllAccounts
     {
-        public static List<Account> accounts = new List<Account>();
+        public static List<Account> accounts = new List<Account>()
+        {
+            new Account(2356),
+            new Account(9288)
+        };
 
         public static void NewAccount(int number)
         {

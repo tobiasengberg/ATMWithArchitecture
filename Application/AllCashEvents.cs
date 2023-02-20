@@ -11,7 +11,8 @@ namespace Application
 
         public static CashEvent AddNewCashEvent(Account account, decimal amount)
         {
-            CashEvent newCashEvent = new CashEvent(amount, account);
+            List<CashEvent> accountHistory = GetAccountHistory(account);
+            CashEvent newCashEvent = new CashEvent(amount, account, accountHistory);
             cashEvents.Add(newCashEvent);
             return newCashEvent;
         }
