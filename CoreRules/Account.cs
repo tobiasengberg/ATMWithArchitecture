@@ -28,7 +28,7 @@ namespace CoreRules
         
         public bool ReOpenAccount()
         {
-            if (AccountActive == false && LatestAction.AddYears(AccountRules.ReOpenYearLimit) > DateTime.Now)
+            if (AccountActive == false && AccountRules.IsReOpenable(LatestAction))
             {
                 AccountActive = true;
                 LatestAction = DateTime.Now;
